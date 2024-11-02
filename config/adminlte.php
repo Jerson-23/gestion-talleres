@@ -299,68 +299,40 @@ return [
     */
 
     'menu' => [
-        // Navbar items:
-        [
-            'type' => 'navbar-search',
-            'text' => 'search',
-            'topnav_right' => true,
-        ],
-        [
-            'type' => 'fullscreen-widget',
-            'topnav_right' => true,
-        ],
-
-        // Sidebar items:
+        'OPCIONES',
         [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
         ],
         [
+            'text' => 'talleres',
+            'url' => 'talleres',
+            'icon' => 'fa-solid fa-landmark',
+            'label' => 4,
+            'label_color' => 'success',
+        ],
+        [
+            'text' => 'sesiones',
+            'url' => 'sesiones',
+            'icon' => 'far fa-fw fa-file',
+            'label' => 4,
+            'label_color' => 'success',
+        ],
+        [
+            'text' => 'nivel_dificultades',
+            'url' => 'niveles',
+            'icon' => 'far fa-fw fa-file',
+            'label' => 4,
+            'label_color' => 'success',
+        ],
+        // Sidebar items:
+
+        [
             'text' => 'blog',
             'url' => 'admin/blog',
             'can' => 'manage-blog',
         ],
-        [
-            'text' => 'talleres',
-            'url' => 'admin/pages',
-            'icon' => 'far fa-fw fa-file',
-            'label' => 4,
-            'label_color' => 'success',
-            [
-                'text' => 'sesiones',
-                'url' => 'admin/pages',
-                'icon' => 'far fa-fw fa-file',
-                'label' => 4,
-                'label_color' => 'success',
-            ],
-            [
-                'text' => 'nivel_dificultades',
-                'url' => 'admin/pages',
-                'icon' => 'far fa-fw fa-file',
-                'label' => 4,
-                'label_color' => 'success',
-            ],
 
-        ],
-        ['header' => 'account_settings'],
-        [
-            'text' => 'profile',
-            'url' => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
-        ],
-        [
-            'text' => 'change_password',
-            'url' => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text' => 'multilevel',
-            'icon' => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                ],
                 [
                     'text' => 'level_one',
                     'url' => '#',
@@ -380,8 +352,8 @@ return [
                                 [
                                     'text' => 'level_three',
                                     'url' => '#',
-                                ],
-                            ],
+
+
                         ],
                     ],
                 ],
@@ -391,23 +363,8 @@ return [
                 ],
             ],
         ],
-        ['header' => 'labels'],
-        [
-            'text' => 'important',
-            'icon_color' => 'red',
-            'url' => '#',
-        ],
-        [
-            'text' => 'warning',
-            'icon_color' => 'yellow',
-            'url' => '#',
-        ],
-        [
-            'text' => 'information',
-            'icon_color' => 'cyan',
-            'url' => '#',
-        ],
-    ],
+
+],
 
     /*
     |--------------------------------------------------------------------------
