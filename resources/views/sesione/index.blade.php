@@ -59,8 +59,8 @@
                                         <td >{{ $sesione->ubicacion }}</td>
                                         <td >{{ $sesione->instructor }}</td>
                                         <td >{{ $sesione->sesionescol }}</td>
-                                        <td >{{ $sesione->nivel_dificultades_id }}</td>
-                                        <td >{{ $sesione->talleres_id }}</td>
+                                        <td >{{ $sesione->nivel_dificultades }}</td>
+                                        <td >{{ $sesione->talleres }}</td>
 
                                         <td>
                                             <form action="{{ route('sesiones.destroy', $sesione->id) }}" method="POST">
