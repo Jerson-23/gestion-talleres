@@ -17,8 +17,8 @@ Este proyecto es una aplicación de gestión de talleres, diseñada para facilit
 1. Clonar el repositorio:
 
 ```sh
-git clone https://github.com/tu-usuario/gestion-de-talleres.git
-cd gestion-de-talleres
+git clone (https://github.com/Jerson-23/gestion-talleres.git)
+cd gestion-talleres
 Instalar las dependencias de PHP y JavaScript:
 
 sh
