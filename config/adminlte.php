@@ -321,11 +321,26 @@ return [
             'can' => 'manage-blog',
         ],
         [
-            'text' => 'pages',
+            'text' => 'talleres',
             'url' => 'admin/pages',
             'icon' => 'far fa-fw fa-file',
             'label' => 4,
             'label_color' => 'success',
+            [
+                'text' => 'sesiones',
+                'url' => 'admin/pages',
+                'icon' => 'far fa-fw fa-file',
+                'label' => 4,
+                'label_color' => 'success',
+            ],
+            [
+                'text' => 'nivel_dificultades',
+                'url' => 'admin/pages',
+                'icon' => 'far fa-fw fa-file',
+                'label' => 4,
+                'label_color' => 'success',
+            ],
+
         ],
         ['header' => 'account_settings'],
         [
